@@ -3,6 +3,7 @@ Minimal template for a python - C++ - interface using pybind11
 
 Build the python module by running
 ```con
+$ mkdir build
 $ cd build
 $ cmake ..
 $ make
