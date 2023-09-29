@@ -69,7 +69,7 @@ std::vector<std::vector<double>> mmul_blas(const std::vector<std::vector<double>
 
 
 PYBIND11_MODULE(my_cpp_module, handle) {
-    handle.doc() = "This is the module docs. Thehe";
+    handle.doc() = "my cpp-python module docs";
     handle.def("add", &add);
     handle.def("mmul", &mmul);
     handle.def("mmul_blas", &mmul_blas);
